@@ -41,7 +41,7 @@ namespace MyShop.Services
             return orderContext.Collection().ToList();
         }
 
-        public Order getOrder(string Id)
+        public Order GetOrder(string Id)
         {
             return orderContext.Find(Id);
         }
